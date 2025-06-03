@@ -1,0 +1,23 @@
+Usage Guide: PINN and SPF-PINN Experimental Code
+This project contains three Jupyter Notebook files corresponding to the three experiments in the Numerical Results section of the paper: the nonlinear Duffing equation, the wave equation, and the mKdV equation.
+
+File List
+├── Nonlinear-Duffing-Equation.ipynb  # Duffing equation
+├── Wave.ipynb              # Wave equation
+├── mkdv.ipynb              # mKdV equation
+Contents of Each File
+PINN Implementation、SPF-PINN Methods、SPF-PINN-1、SPF-PINN-4
+
+NTK Analysis:
+
+PINN + NTK: Records NTK (Neural Tangent Kernel) eigenvalues for the standard PINN.
+
+SPF-PINN-4 + NTK: Records NTK eigenvalues under SPF-PINN.
+
+NTK-comparison: Plots mean and variance of NTK eigenvalues for both PINN and SPF-PINN for comparison.
+
+Recommendations
+Python 3.8+ is recommended. Please install PyTorch, Matplotlib, Numpy, and other standard scientific libraries.
+
+Each notebook can be run independently by executing the cells in order.
+
